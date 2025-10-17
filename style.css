@@ -162,7 +162,7 @@ span{
 
 .skills-section{
     width: 100%;
-    height: 600px;
+    height: 630px;
     background-color: #222222;
 }
 
@@ -243,3 +243,74 @@ span{
     margin-top: 50px;
 }
 
+.footbar{
+    width: 100%;
+    height: 630px;
+   background-color: #303030;
+   padding: 25px;
+}
+
+.footbar h2{
+    font-size: 120px;
+
+}
+
+.footbar .email{
+    text-decoration: none;
+    color: #FE7D84;
+}
+
+.footbar .email:hover{
+    text-decoration: line-through;
+    
+}
+
+.insta{
+    text-decoration: none;
+    color: #F6BA53;
+}
+
+.insta:hover{
+    text-decoration: line-through;
+
+}
+
+.twitter{
+    text-decoration: none;
+    color: aqua;
+}
+
+.twitter:hover{
+    text-decoration: line-through;
+
+}
+
+.footbar h4{
+    font-size: 30px;
+    margin-top: 100px;
+    margin-left: 480px;
+
+}
+
+/* WebKit (Chrome, Edge, Safari) */
+::-webkit-scrollbar {
+    width: 12px;
+    height: 5px;
+}
+::-webkit-scrollbar-track {
+    background: transparent; /* track color */
+}
+::-webkit-scrollbar-thumb {
+    background-color: black; /* thumb color */
+    border-radius: 10px;
+    border: 3px solid #0b0b0b; /* creates padding around thumb */
+}
+::-webkit-scrollbar-thumb:hover {
+    background-color: black;
+}
+
+/* Firefox */
+* {
+    scrollbar-width: thin;
+    scrollbar-color: black #0b0b0b; /* thumb then track */
+}
