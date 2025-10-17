@@ -2,7 +2,14 @@
     margin: 0;
     padding: 0;     
     box-sizing: border-box;
-    font-family: sans-serif;
+    font-family: Montserrat;
+    color: white;
+    cursor: default;
+    justify-content: center;
+}
+
+html{
+    background-color: black;
 }
 
 .navbar {
@@ -10,8 +17,9 @@
     align-items: center;
     justify-content: space-between;
     padding: 20px;
-    background-color: #000;
+    background-color: transparent;
     color: white;
+    
 }
 
 .logo{
@@ -41,9 +49,81 @@
     font-size: 18px;
     cursor: pointer;
     transition: background-color 0.3s, color 0.3s;
+    cursor: default;
+}
+
+.repo-button:hover{
+    background: black;
 }
 
 .repo-button a {
     text-decoration: none;
-    color: inherit;
+    color: white;
+    cursor: default;
+    transition: 0.3s ease;
+    background-color: transparent;
+}
+
+.hero-section{
+    width: 100%;
+    height: 400px;
+    justify-items: center;
+    background-color: black;
+}
+
+.intro-text h2{
+   
+    cursor: default;
+    font-size: 50px;
+}
+
+.hero-image img{
+    width: 840px;
+    
+}
+
+.about-section{
+    width: 100%;
+    height: 400px;
+    margin-top: 160px;
+    justify-items: center;
+    background-color: black;
+}
+
+.about-section h2{
+    
+    cursor: default;
+    font-size: 50px;
+}
+
+.about-section h3{
+    font-size: 55px;
+    font-weight: 100px;
+}
+
+.about-section h4{
+    font-size: 40px;
+}
+
+span{
+    color: #FE7D84;
+}
+
+.project-section {
+    width: 100%;
+    background-color: #303030;
+    height: 600px;
+}
+
+.project-section .heading{
+    padding-top: 50px;
+    padding-left: 50px;
+}
+
+.project-section h3{
+    font-size: 45px;
+}
+
+.project-section h3{
+    font-size: 45px;
 }
