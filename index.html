@@ -32,7 +32,7 @@
             <img src="NEW-VERSIONAVOID.jpg" alt="Suryaa's Image"> 
         </div>
     </div>
-    <div class="about-section" .id="about">    
+    <div class="about-section" id="about">    
         <h2>Hi!</h2>
         <h3>Im Surya Prakash, a <span>web developer</span> </h3>
             <h3>focused on creating stunning</h3>
@@ -80,12 +80,24 @@
     </div>
 
     <div class="footbar">
-        <p>you can get in touch
-            <br>with me via <span>email</span>email or
-            <br><a href="#">instagram.</a>
-        </p>
-        <p>© 2024 developersuryaa</p>
-        <p>created with ❤️ by me</p>
+        <h2>you can get in touch<h2>
+            <h2>with me via <a href="mailto:developersuryaa@gmail.com" class="email">email</a> or</h2>
+            <h2><a href="https://www.instagram.com/developersuryaa/" class="insta">Instagram</a> or <a href="https://x.com/suryaaishere" class="twitter">x</a>.</h2>
+
+        <h4>created with ❤️ by me </h4>
     </div>
+
+    <script src="https://unpkg.com/@studio-freight/lenis"></script>
+<script>
+  const lenis = new Lenis()
+
+  function raf(time) {
+    lenis.raf(time)
+    requestAnimationFrame(raf)
+  }
+
+  requestAnimationFrame(raf)
+</script>
+
 </body>
 </html>
