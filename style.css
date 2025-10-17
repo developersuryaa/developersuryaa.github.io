@@ -103,7 +103,9 @@ html{
 
 .about-section h4{
     font-size: 40px;
+    
 }
+
 
 span{
     color: #FE7D84;
@@ -112,7 +114,7 @@ span{
 .project-section {
     width: 100%;
     background-color: #303030;
-    height: 600px;
+    height: 750px;
 }
 
 .project-section .heading{
@@ -124,6 +126,120 @@ span{
     font-size: 45px;
 }
 
-.project-section h3{
-    font-size: 45px;
+.project-section h5{
+    font-size: 20px;
+    font-weight: 10px;
 }
+
+.project-img{
+    padding-top: 30px;
+    padding-left: 50px;
+}
+
+.project-img img{
+    margin-right: 30px;
+    border-radius: 10px;
+}
+
+.right-see{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 50px;
+    padding-top: 30px;
+}   
+
+.right-see a{
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+}  
+
+.right-see i{
+    font-size: 40px;
+    margin-right: 10px;
+    color: aqua;
+}
+
+.skills-section{
+    width: 100%;
+    height: 600px;
+    background-color: #222222;
+}
+
+.heading-skills{
+    padding-top: 50px;
+    padding-left: 50px;
+}
+
+.heading-skills h2{
+    font-size: 50px;
+}
+.heading-skills h4{
+    font-size: 25px;
+    font-weight: 10px;
+}
+
+.development{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 55px;
+    
+}
+
+.development h4{
+    width: 210px;
+    height: 55px;   
+    padding-left: 15px;
+    padding-top: 10px;
+    font-size: 25px;
+    border: white solid 2px;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+
+.cards{
+    display: flex;
+    gap: 30px;
+    margin-top: 30px;                   
+    border-radius: 10px;        
+    
+}
+
+
+.skill-card{    
+    width: auto;
+    height: auto;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+
+    justify-content: space-around;
+    background-color: white;
+    
+}
+
+.skill-card img{
+    width: 70px;
+    height: 70px;
+}
+
+.designing{
+     display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 55px;
+}
+
+.designing h4{
+    width: 170px;
+    height: 55px;   
+    padding-left: 15px;
+    padding-top: 10px;
+    font-size: 25px;
+    border: white solid 2px;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+
